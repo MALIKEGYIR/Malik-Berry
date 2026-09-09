@@ -4,110 +4,75 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Malik Berry | Student Portfolio</title>
-
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background: #f4f4f4;
-            color: #222;
-        }
-
-        header {
-            background: #111;
-            color: white;
-            text-align: center;
-            padding: 40px 20px;
-        }
-
-        header h1 {
-            margin: 0;
-            font-size: 40px;
-        }
-
-        header p {
-            font-size: 18px;
-        }
-
-        nav {
-            background: #333;
-            text-align: center;
-            padding: 15px;
-        }
-
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin: 0 15px;
-        }
-
-        section {
-            max-width: 900px;
-            margin: 30px auto;
-            padding: 30px;
-            background: white;
-            border-radius: 10px;
-        }
-
-        h2 {
-            color: #333;
-        }
-
-        .skills {
-            display: flex;
-            gap: 15px;
-            flex-wrap: wrap;
-        }
-
-        .skill {
-            background: #eee;
-            padding: 12px 20px;
-            border-radius: 20px;
-        }
-
-        footer {
-            background: #111;
-            color: white;
-            text-align: center;
-            padding: 20px;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
+    <!-- Navigation -->
     <header>
-        <h1>Malik Berry</h1>
-        <p>Student | Web Developer | Technology Enthusiast</p>
+        <nav>
+            <h2>Malik Berry</h2>
+
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <nav>
-        <a href="#about">About</a>
-        <a href="#education">Education</a>
-        <a href="#skills">Skills</a>
-        <a href="#contact">Contact</a>
-    </nav>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-text">
+            <p class="welcome">WELCOME TO MY PORTFOLIO</p>
 
+            <h1>Hello, I'm <span>Malik Berry</span></h1>
+
+            <h2>IT Student & Aspiring Web Developer</h2>
+
+            <p>
+                I am passionate about technology, programming and creating
+                modern websites.
+            </p>
+
+            <a href="#contact" class="button">Contact Me</a>
+        </div>
+    </section>
+
+    <!-- About -->
     <section id="about">
         <h2>About Me</h2>
+
         <p>
             Hello! My name is Malik Berry. I am a student interested in
-            technology, programming and web development.
+            Information Technology, programming and web development.
+            I enjoy learning new technologies and building useful digital
+            projects.
         </p>
     </section>
 
+    <!-- Education -->
     <section id="education">
         <h2>Education</h2>
-        <p>
-            I am currently studying and developing my skills in Information
-            Technology and web development.
-        </p>
+
+        <div class="card">
+            <h3>Information Technology</h3>
+            <p>
+                I am currently studying Information Technology and developing
+                my skills in programming, web development and computer
+                technologies.
+            </p>
+        </div>
     </section>
 
+    <!-- Skills -->
     <section id="skills">
         <h2>My Skills</h2>
 
-        <div class="skills">
+        <div class="skills-container">
             <div class="skill">HTML</div>
             <div class="skill">CSS</div>
             <div class="skill">JavaScript</div>
@@ -115,14 +80,53 @@
         </div>
     </section>
 
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <p>Email: yourname@example.com</p>
-        <p>Phone: 000 000 0000</p>
+    <!-- Projects -->
+    <section id="projects">
+        <h2>My Projects</h2>
+
+        <div class="projects-container">
+
+            <div class="project-card">
+                <h3>Student Portfolio</h3>
+                <p>
+                    A personal website created to showcase my skills,
+                    education and projects.
+                </p>
+            </div>
+
+            <div class="project-card">
+                <h3>Web Development Project</h3>
+                <p>
+                    A project demonstrating my knowledge of HTML, CSS
+                    and JavaScript.
+                </p>
+            </div>
+
+            <div class="project-card">
+                <h3>Coming Soon</h3>
+                <p>
+                    More exciting projects will be added here.
+                </p>
+            </div>
+
+        </div>
     </section>
 
+    <!-- Contact -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+
+        <p>I'd love to connect with you.</p>
+
+        <div class="contact-info">
+            <p>📧 Email: malikberry@example.com</p>
+            <p>📱 Phone: +233 XX XXX XXXX</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
     <footer>
-        <p>&copy; 2026 Malik Berry. All Rights Reserved.</p>
+        <p>© 2026 Malik Berry. All Rights Reserved.</p>
     </footer>
 
 </body>
