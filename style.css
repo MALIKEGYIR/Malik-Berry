@@ -262,6 +262,43 @@ footer {
 }
 
 .project-button:hover {
+    /* Contact section */
+
+.contact-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    margin-top: 40px;
+}
+
+.contact-card {
+    background: white;
+    padding: 30px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease;
+}
+
+.contact-card:hover {
+    transform: translateY(-8px);
+}
+
+.contact-icon {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.contact-card h3 {
+    color: #1e3a8a;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 700px) {
+    .contact-container {
+        grid-template-columns: 1fr;
+    }
+}
     background: #38bdf8;
     color: #111827;
 }
