@@ -229,3 +229,39 @@ footer {
     margin-bottom: 25px;
     box-shadow: 0 0 25px rgba(56, 189, 248, 0.5);
 }
+/* Project improvements */
+
+.section-intro {
+    margin-bottom: 40px !important;
+}
+
+.project-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+.project-icon {
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+.project-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 22px;
+    background: #1e3a8a;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.project-button:hover {
+    background: #38bdf8;
+    color: #111827;
+}
